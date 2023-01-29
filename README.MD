@@ -17,6 +17,14 @@ This project uses sentinemt analisys from a live stream of tweets about stocks t
 
 ## To run the project:
 
+### First, clone project to your pycharm enviroment:
+
+```text
+git clone https://github.com/MaozKoren/BigDataProject
+```
+
+### Then:
+
 ```text
 pip install -r requirements_win.txt
 ```
