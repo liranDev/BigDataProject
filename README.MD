@@ -21,4 +21,4 @@ This project uses sentinemt analisys from a live stream of tweets about stocks t
 pip install -r requirements_win.txt
 ```
 
-## Than run main.py
+### Than run main.py
