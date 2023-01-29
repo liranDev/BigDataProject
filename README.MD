@@ -1,6 +1,7 @@
 # Stock Price Prediction Using Tweets Sentiment Analisys
 
 This project uses sentinemt analisys from a live stream of tweets about stocks to predict stock price and make Buy/Sell decisions.
+Developed on Windows os, using pycharm community edition 2021.2.3, Python 3.9
 
 ## The project includes the following code:
 
