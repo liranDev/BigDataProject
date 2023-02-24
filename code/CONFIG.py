@@ -7,3 +7,4 @@ VECTORS_MODEL = Path.cwd().parent / 'models' / 'vectors_model.pkl'
 
 #data
 DATA_STREAM = Path.cwd().parent / 'data' / 'data.csv'
+SPY_STREAM = Path.cwd().parent / 'data' / 'SPY.csv'
