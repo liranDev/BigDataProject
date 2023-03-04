@@ -5,6 +5,9 @@ from pathlib import Path
 LOGISTIC_REGRESSION_MODEL = Path.cwd().parent / 'models' / 'LogisticRegression_model.sav'
 VECTORS_MODEL = Path.cwd().parent / 'models' / 'vectors_model.pkl'
 
+# portfolio
+PORTFOLIO = Path.cwd().parent / 'models' / 'account.json'
+
 # data
 DATA_STREAM = Path.cwd().parent / 'data' / 'data.csv'
 SPY_STREAM = Path.cwd().parent / 'data' / 'SPY.csv'
