@@ -7,6 +7,8 @@ VECTORS_MODEL = Path.cwd().parent / 'models' / 'vectors_model.pkl'
 
 # portfolio
 PORTFOLIO = Path.cwd().parent / 'models' / 'account.json'
+# parameters
+PARAMETERS = Path.cwd().parent / 'models' / 'parameters.json'
 
 # data
 DATA_STREAM = Path.cwd().parent / 'data' / 'data.csv'
