@@ -1,3 +1,5 @@
+import os
+import json
 import fft_model
 import sentiment_model
 from config import PARAMETERS
@@ -23,7 +25,7 @@ def update_parameters(a,b):
             params = json.load(fp)
         params['a'] = a
         params['b'] = b
-        with open(PORTFOLIO, "w") as outfile:
+        with open(PARAMETERS, "w") as outfile:
             json.dump(params, outfile)
     else:
         dictionary = {"a": a, "b": b}

@@ -3,6 +3,7 @@ import numpy as np
 from config import *
 import ensemble_model
 import portfolio_management_model
+import matplotlib as plt
 
 spy_df = pd.read_csv(SPY_STREAM)
 close_prices = spy_df['Close'].to_numpy()
@@ -20,3 +21,6 @@ if __name__ == '__main__':
         results.append(result)
         ensemble_model.optimize(results, decision[1], decision[2])
         start += 1
+
+plt.plot(results)
+plt.show()

@@ -9,6 +9,9 @@ stop_words = set(stopwords.words('english'))
 import warnings
 warnings.filterwarnings('ignore')
 
+
+
+
 class Sentiment:
     dict_sentiments = {'Positive': 1, 'Negative': -1, 'Irrelevant': 0, 'Neutral': 0}
     def __init__(self, line, model, vect):
