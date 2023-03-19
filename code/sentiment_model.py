@@ -27,10 +27,11 @@ from kernals import *
 prediction_model = pickle.load(open(LOGISTIC_REGRESSION_MODEL, 'rb'))
 # load the model from disk
 vector_model = pickle.load(open(VECTORS_MODEL, 'rb'))
-sentiments = []
+
 length = 50
 def predict(sentences):
-    for sent in sentences:
+    sentiments = []
+    for sent in sentences.Sentence:
         sentiment = sa.Sentiment(sent, prediction_model, vector_model)
         sentiments.append(sentiment.predictSentiment())
     weighted_sentiment = exponent(sentiments)

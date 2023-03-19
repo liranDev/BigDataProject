@@ -35,3 +35,6 @@ def get_results(dec,actual_price):
     pred = dec[5]
     diff = (actual_price - pred[50])/actual_price
     return diff
+def get_outcome(last,next):
+    diff = 1 if (next - last) > 0 else 0
+    return diff
