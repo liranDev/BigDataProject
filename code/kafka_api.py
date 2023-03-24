@@ -37,7 +37,7 @@ class KafkaProducerAPI:
         self.producer = Producer({'bootstrap.servers': brokers})
 
     def produce(self, topic, value):
-        self.producer.produce(topic, value.encode('utf-8'))
+        self.producer.produce(topic)
 
 
 class KafkaTopicManager:

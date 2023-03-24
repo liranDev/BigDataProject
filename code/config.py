@@ -15,6 +15,11 @@ DATA_STREAM = Path.cwd().parent / 'data' / 'data.csv'
 SPY_STREAM = Path.cwd().parent / 'data' / 'SPY.csv'
 
 
+class KafkaConfig:
+    FINANCE_TOPIC = 'finance'
+    HOST = 'localhost:9092'
+
+
 class TwitterConfig:
     CONSUMER_TWITTER_API_KEY = os.getenv('TWITTER_API_KEY')
     CONSUMER_TWITTER_API_KEY_SECRET = os.getenv('TWITTER_API_KEY_SECRET')
